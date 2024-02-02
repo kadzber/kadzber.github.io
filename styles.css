@@ -1,0 +1,238 @@
+.rose-main{
+    text-align: center;
+    margin-right: auto;
+    font-size: 30px;
+}
+
+.podstrony{
+    margin-left:1600px ;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+.guzik{
+    margin-left:95%;
+    margin-top: 1%;
+}
+
+.pls{
+    background-color: white;
+}
+
+.pls2{
+    margin-left: auto;
+}
+
+.O_nas{
+    text-align: center;
+    color: aliceblue;
+}
+
+.white1{
+    color: aliceblue;
+    margin-left: 10%;
+}
+
+.bilety09{
+    margin-top: -3%;
+    margin-left: 70%;
+}
+
+
+.moto{
+    font-size: 45px;
+}
+
+.showroom-align{
+    margin-left: 45%;
+    margin-top: -23%;
+}
+
+
+.white2{
+    color: aliceblue;
+    margin-left: 60%;
+}
+
+.opis2-1{
+    font-size: 25px;
+    
+}
+
+
+.sim-rig{
+    margin-left: 10%;
+    margin-top: -23%;
+}
+
+
+
+.black-backgroung{
+    display: inline-block;  
+    background-color: rgb(43, 43, 43);
+    
+}
+
+.margin{
+    margin-left: 15%;
+}
+
+.grey{
+    color:beige
+}
+
+
+
+.placki{
+    margin-left: 35%;
+    margin-top: -55%;
+
+}
+
+.map{
+    height: 900px;
+}
+
+
+.FAQ{
+    margin-left: 45%;
+    margin-top: -55%;
+}
+
+
+body, html {
+    height: 100%;
+  }
+  
+  .parallax {
+    /* The image used */
+    background-image: url("formula_1.jpg");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+  /* https://codepen.io/DuskoStamenic/pen/ZEvBKdw */
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap";
+
+:root {
+  --color: rgb(63 63 63);
+}
+
+body {
+  margin: 0;
+  font-family: Poppins, sans-serif;
+}
+
+.parallax-container {
+  display: flex;
+  min-height: 60vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  /*  this is where the magic happens:  */
+  background-attachment: fixed;
+
+  background-image: url();
+  background-position: center;
+  background-size: cover;
+  color: var(--color);
+  row-gap: 4rem;
+
+  text-align: center;
+}
+
+
+
+.parallax-container2 {
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  padding: 1rem 0;
+  background-image: url(https://www.topgear.com/sites/default/files/images/news-article/carousel/2016/09/c733448a3938cea726943985d0589e17/laferrari500sep2016.jpg);
+  gap: 1.6em;
+}
+
+.parallax-container3{
+              flex-direction: row;
+  flex-wrap: wrap;
+
+  padding: 1rem 0;
+  background-image: url(https://ocdn.eu/pulscms-transforms/1/EXHk9kpTURBXy85YzZhMjY1YzNiYTNlOTlkZGFkN2M5ZjhmMzU4NGJmZC5qcGeSlQMAEM0V8M0MV5MFzQSwzQKk3gACoTAFoTEA);
+  gap: 1.6em;
+}
+
+
+.parallax-container4{
+    flex-direction: row;
+  flex-wrap: wrap;
+
+  padding: 1rem 0;
+  background-image: url(https://hips.hearstapps.com/hmg-prod/images/2014-mclaren-p1-1111-charlie-magee-1531410060.jpg);
+  gap: 1.6em;
+}
+
+.parallax-container5{
+    flex-direction: row;
+    flex-wrap: wrap;
+  
+    padding: 1rem 0;
+    background-image: url(https://rushlane.com/wp-content/uploads/2017/11/final-koenigsegg-agera-rs-1.jpg);
+    gap: 1.6em;
+}
+
+.parallax-container6{
+    flex-direction: row;
+    flex-wrap: wrap;
+  
+    padding: 1rem 0;
+    background-image: url(https://www.topgear.com/sites/default/files/2021/08/2010-Pagani-Zonda-R-Evolution-_74.jpg);
+    gap: 1.6em;
+}
+
+
+.btn{
+
+font-family: Roboto, sans-serif;
+font-weight: 100;
+font-size: 30px;
+color: #ffffff;
+background: linear-gradient(90deg, #000000 0%, #000000 100%);
+padding: 10px 30px;
+border: solid #ffffff 2px;
+box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+border-radius: 50px;
+transition : 1000ms;
+transform: translateY(0);
+display: flex;
+flex-direction: row;
+align-items: center;
+cursor: pointer;
+margin-left: 10%;
+}
+
+.btn:hover{
+
+transition : 1000ms;
+padding: 10px 50px;
+transform : translateY(-0px);
+background: linear-gradient(90deg, #000000 0%, #000000 100%);
+color: #d62828;
+border: solid 2px #d62828;
+}
+
+
+
+
+
+
